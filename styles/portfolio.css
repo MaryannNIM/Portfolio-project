@@ -79,7 +79,7 @@ footer .open-source p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.project-description {
+.project-description .about-description {
   padding: 20px 10px;
 }
 .about-container {
@@ -145,10 +145,23 @@ footer .open-source p {
     padding: 20px;
   }
   .content h1 {
-    font-size: 44px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 1.5;
+    padding-top: 40px;
+    padding-bottom: 5px;
+  }
+  .about-description h1 {
+    font-size: 34px;
+    line-height: 1.5;
+    padding-top: 70px;
+    padding-bottom: 5px;
+  }
+  .about-description h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    padding-bottom: 5px;
   }
   .certifications {
-    width: 90%;
+    width: 85%;
   }
 }
