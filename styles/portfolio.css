@@ -26,10 +26,23 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 30px;
+  font-weight: 700;
+  word-spacing: 5px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+footer p {
+  margin: 0;
+}
+footer .open-source p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  opacity: 0.5;
 }
 
 .hero {
@@ -69,7 +82,40 @@ p {
 .project-description {
   padding: 20px 10px;
 }
-
+.about-container {
+  line-height: 80px;
+  text-align: center;
+  padding-top: 150px;
+}
+.about-container h1 {
+  font-size: 54px;
+}
+.about-container h2 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+.img-fluid {
+  border-radius: 40px;
+  box-shadow: var(--box-shadow);
+}
+.content {
+  text-align: center;
+  padding-top: 80px;
+}
+.content h1 {
+  font-size: 54px;
+  line-height: 80px;
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.certifications {
+  box-shadow: var(--box-shadow);
+  margin-bottom: 15px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -85,5 +131,24 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-container {
+    text-align: center;
+    padding: 0;
+    margin-top: -15px;
+  }
+
+  .img-fluid {
+    width: 85%;
+  }
+  .content {
+    padding: 0;
+  }
+  .content h1 {
+    font-size: 44px;
+    line-height: 40px;
+  }
+  .certifications {
+    width: 90%;
   }
 }
